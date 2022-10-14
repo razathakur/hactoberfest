@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    height: 50px;
+    width: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+#navbar{
+    display: flex;
+    background-color: purple 
+    
+}
+#listitem{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    width: 50%;
+}
+#listitem li{
+    padding-left: 20px;
+}
+#listitem li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+#listitem li a:hover{
+    color: black;
+}
+.leftnav{
+    width: 50%;
+     background-color:purple;
+    text-align: right;
+    justify-content: center;
+    padding: 20px;
+}
+#search{
+    height: 16px;
+    border: 3px solid yellow;
+    width: 200px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.btn{
+   
+    width: 82px;
+    border-radius: 5px;
+    height: 25px;
+    padding: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.containt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+.para{
+    width: 50%;
+}
+.photo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.cards box2{
+    
+        height: 500px;
+        width: 500px;
+        border:5px solid black;
+         background-color: burlywood; 
+        margin: auto;
+         background-image:url(random.jpg); 
+    
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+#box1{
+    
+        height: 200px;
+        width: 200px;
+        border:5px solid black;
+         background-color: burlywood; 
+          margin: auto; 
+         background-image:url(background2.jpg); 
+         float: left;
+         text-align: center;
+         justify-content: center;
+    
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    border:5px solid black;
+     background-color: burlywood; 
+     margin: auto;
+     background-image:url(random.jpg); 
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    border:5px solid black;
+     background-color: burlywood; 
+     margin: auto; 
+     background-image:url(random.jpg); 
+     float: right;
+}
