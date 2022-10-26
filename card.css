@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 #box{
-    height: 600px;
-    width: 600px;
-    border:5px solid black;
+    height: 700px;
+    width: 700px;
+    border:15px solid blue;
      background-color:black; 
     margin: auto;
-    padding:0;
+    padding:0%;
      background-image:url(random.jpg); 
-      boarde-color:rgb(100, 100, 6);
+      boarde-color:rgb(200, 200, 60);
     display:inline-block;
 }
 #box{
     <p>lorem</p>
+     <p> </p>
+   
 }
