@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>LOGININTO</title>
+    <style>
+        .container{
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .login_page{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
+
 <body>
-    <ul>
-        <li>KELA</li>
-        <ul>
-            <li>color; yellow</li>
-            <li>season:winter</li>
+
+    <ul class="list-group">
+        <li class="list-group-item">Banana</li>
+        <ul class="list-group">
+            <li class="list-group-item">Aone Quality</li>
         </ul>
-        <li>apple</li>
-        <ul>
-            <li>color: red</li>
-            <li>season:winter</li>
-        </ul>
-        <li>banana</li>
-        <li>graps</li>
-        <li>litchi</li>
+        <li class="list-group-item">Apple</li>
+        <li class="list-group-item">Graps</li>
+        <li class="list-group-item">Litchi</li>
     </ul>
-    <table>
+
+
+    <br><br><br><br><br>
+
+    <table class="table table-striped">
         <tr>
-        <th>name</th>
-        <th>roll no.</th>
+            <th>name</th>
+            <th>roll no.</th>
         </tr>
         <tr>
             <td>raja</td>
             <td>56</td>
-            
+
         </tr>
-        
+
         <tr>
             <td>ramavtar</td>
             <td>57</td>
@@ -41,55 +56,43 @@
             <td> vijay</td>
             <td>58</td>
         </tr>
-    </table> 
+    </table>
+
+    <div class="container">
+        <form class="login_page">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option value="damoh" selected> Damoh</option>
+                <option value="panna">Panna</option>
+                <option value="sagar">Sagar</option>
+                <option value="bhopal">Bhopal</option>
+                <option value="chatarpur">Chatarpur</option>
+                <option value="KARRAPUR">Karrapur</option>
+            </select>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
 
 
 
-      creat form 
 
-     <form action="login page">
-        <input type="text" placeholder="username" id="">
-        <br>
-        <br>
-        <input type="password"placeholder="password">
-
-
-     <br>
-     <label for="101">
-        <input type="radio"value="class 12th"name ="class" id="101">class 12th
-     </label>
-
-    <label for="102">
-        <input type="radio"value=" class 10th"name ="class" id="102">clas 10th
-    </label>
-     <br>
-     <br>
-     
-     <label for="1001">
-        <input type="checkbox" value="maths"class= "subject" id="1001">maths
-     </label>
-     <label for="1002">
-        <input type="checkbox" value="Physics"class= "subject" id="1002">physics
-     </label>
-     <label for="1003">
-        <input type="checkbox" value="drawings"class= "subject" id="1003">drwaing
-     </label>
-         <label for="1003">
-        <input type="checkbox" value="machanics"class= "subject" id="1003">machanics
-     </label>
-
-     <select name="district" >
-        <option value="damoh"> damoh</option> 
-        <option value="panna">panna</option> 
-        <option value="sagar">sagar</option> 
-        <option value="bhopal">bhopal</option>
-        <option value="chatarpur">chatarpur</option> 
-          <option value="KARRAPUR">karrapur</option> 
-     </select>
-
-     </form>
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/oRZ0cfZ9SeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/oRZ0cfZ9SeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
 </html>
