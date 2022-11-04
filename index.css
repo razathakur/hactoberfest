@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  section{
+    background: url(monkey.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  .card{
+    height: 500px;
+    width: 500px;
+    /* border: solid red 5px; */
+    align-items: center;
+    justify-content: center;
+    float: left;
+    border-radius: 50%;
+    display: flex;
+  }
+  .tiger img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    
+  }
+  .containt{
+    float: right;
+    height: 500px;
+    width: 500px;
+    background-color: aqua ;
+    border-radius: 10%;
+    margin-right: 100px;
+
+  }
+  .data{
+    float: right;
+    /* background-color: aqua; */
+  }
+  .data h1{
+    justify-content: center;
+    text-align: center;
+  }
+  .second{
+    float: right;
+  }
+  .card2{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    /* border:  solid black 5px; */
+    margin-top: 550px;
+    float: right;
+    margin-right: -494px;
+    display: flex;
+  }
+  .chetah img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+  }
+.containt2{
+  height: 500px;
+  width: 500px;
+  float: left;
+  margin-top: 68px;
+  border: solid black 5px;
+  margin-left: 17px;
+  border-radius: 10%;
+}
+.first{
+  margin-left: 100px;
+}
+.leopard{
+  margin-top: 76px;
+  margin-right: 83px;
+  margin-left: 162px;
+}
+
