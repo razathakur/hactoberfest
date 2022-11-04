@@ -2,64 +2,62 @@
     margin: 0;
     padding: 0;
 }
-.card{
-    height: 500px;
-     width: 500px;
-     border: solid black 5px;
-     margin-left: 215px;
-     margin-top: 100px;
-     /* display: flex; */
-     background-color: white;
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
 
 }
-.secondcard{
+.firstcard{
     height: 500px;
-     width: 500px;
-     border: solid black 5px;
-     float: right;
-     margin-top: -509px;
-     background-color: bisque;
-     margin-right: 305px;
-     /* margin-top: 100px; */
-     display: flex;
-}
-.login{
-    height: 400px;
-    width: 350px;
-    /* border: solid black 5px; */
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-right: 50px;
-    background-color: white;
+    width: 500px;
+    background-color: aquamarine;
 }
 .image img{
     height: 400px;
     width: 400px;
 
 }
-.details{
-    margin-left: 50px;
-    /* margin-top: 50px; */
+.secondcard{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(212, 189, 189);
+    float: right;
 }
-#check{
+.login{
+    height: 400px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+    border: solid black 5px;
+}
+.maincard{
+    display: flex;
+    margin-left: 285px;
+    margin-top: 120px;
+}
+div.info{
+    display: flex;
+}
+#checkbox{
     height: 20px;
     width: 20px;
-    margin-top: 20px ;
 }
 #box{
-    height: 24px;
-    width: 218px;
-    border-radius: 5%;
+    height: 25px;
+    width: 220px;
+    border-radius: 5px;
+}
+.f{
+    float: right;
+    display: flex;
+    margin-left: 145px;
+    margin-top: -18px;
 }
 #btn{
+    display: flex;
     width: 100px;
-    /* background-color: blue; */
-    margin-top: 40px;
-    margin-left: 50px;
-}
-.background{
-    height: 100vh;
-    /* background-color: aqua; */
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-left: 104px;
 }
