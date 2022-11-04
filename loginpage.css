@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 500px;
+     width: 500px;
+     border: solid black 5px;
+     margin-left: 215px;
+     margin-top: 100px;
+     /* display: flex; */
+     background-color: white;
+
+}
+.secondcard{
+    height: 500px;
+     width: 500px;
+     border: solid black 5px;
+     float: right;
+     margin-top: -509px;
+     background-color: bisque;
+     margin-right: 305px;
+     /* margin-top: 100px; */
+     display: flex;
+}
+.login{
+    height: 400px;
+    width: 350px;
+    /* border: solid black 5px; */
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 50px;
+    background-color: white;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+
+}
+.details{
+    margin-left: 50px;
+    /* margin-top: 50px; */
+}
+#check{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px ;
+}
+#box{
+    height: 24px;
+    width: 218px;
+    border-radius: 5%;
+}
+#btn{
+    width: 100px;
+    /* background-color: blue; */
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.background{
+    height: 100vh;
+    /* background-color: aqua; */
+    margin-top: 5px;
+}
